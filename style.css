@@ -22,6 +22,7 @@ body {
 }
 .content {
     display: flex;
+    flex-wrap: wrap;
 }
 .article {
     border-radius: 10px;
@@ -45,6 +46,9 @@ body {
     .slider {
         height: 300px;
         margin-top: 30px;
+    }
+    .content {
+        flex-wrap: nowrap;
     }
 }
 @media screen and (min-width:770px) {
